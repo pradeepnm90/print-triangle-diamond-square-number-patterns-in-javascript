@@ -1,3 +1,15 @@
+//      *     
+//     ***    
+//    *****   
+//   *******  
+//  ********* 
+//  ********* 
+//   *******  
+//    *****   
+//     ***    
+//      * 
+
+
 function formDiamond(rows) {
     var k = 0;
     for (var i = 1; i <= rows; i++) {
@@ -19,4 +31,4 @@ function formDiamond(rows) {
         console.log(s);
     }
 }
-formDiamond(20);
+formDiamond(10);

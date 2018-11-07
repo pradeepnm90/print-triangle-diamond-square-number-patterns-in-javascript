@@ -1,3 +1,11 @@
+// 1  
+// 1  2  
+// 1  2  3  
+// 1  2  3  4  
+// 1  2  3  4  5  
+// 1  2  3  4  5  6  
+// 1  2  3  4  5  6  7 
+
 function generateNumberTriangle(v) {
     for (var i = 1; i <= v; i++) {
         var chars = " ";
