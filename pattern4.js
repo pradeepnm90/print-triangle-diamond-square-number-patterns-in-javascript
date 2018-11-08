@@ -9,7 +9,6 @@ function generateMidNumberTriangle(n) {
         var k = i;
         var s = " ";
         for (var j = 1; j <= (2 * n - 1); j++) {
-            //  debugger;
             if (j >= n + 1 - i && j <= n - 1 + i) {
                 s += k;
                 j < midOfCol ? k-- : k++;
